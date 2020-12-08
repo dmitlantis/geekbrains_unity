@@ -51,6 +51,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\ImportedAssets\PolygonDungeon\SampleScenes\Scripts\LevelReset.cs" />
+     <Compile Include="Assets\Scripts\BombEater.cs" />
      <Compile Include="Assets\ImportedAssets\PolygonDungeon\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
      <Compile Include="Assets\ImportedAssets\Standard Assets\ParticleSystems\Scripts\ExtinguishableParticleSystem.cs" />
      <Compile Include="Assets\ImportedAssets\Standard Assets\ParticleSystems\Scripts\ParticleSystemMultiplier.cs" />
@@ -67,6 +68,7 @@
      <Compile Include="Assets\ImportedAssets\Standard Assets\ParticleSystems\Scripts\Hose.cs" />
      <Compile Include="Assets\ImportedAssets\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs" />
      <Compile Include="Assets\ImportedAssets\Standard Assets\Environment\Water\Water\Scripts\WaterBase.cs" />
+     <Compile Include="Assets\Scripts\WardenScript.cs" />
      <Compile Include="Assets\ImportedAssets\Standard Assets\Characters\RollerBall\Scripts\BallUserControl.cs" />
      <Compile Include="Assets\ImportedAssets\Standard Assets\Cameras\Scripts\AutoCam.cs" />
      <Compile Include="Assets\ImportedAssets\Standard Assets\Utility\TimedObjectActivator.cs" />
@@ -153,7 +155,7 @@
      <Compile Include="Assets\ImportedAssets\Standard Assets\Utility\FOVKick.cs" />
      <Compile Include="Assets\ImportedAssets\Standard Assets\2D\Scripts\PlatformerCharacter2D.cs" />
      <Compile Include="Assets\ImportedAssets\Standard Assets\Utility\AutoMobileShaderSwitch.cs" />
-     <Compile Include="Assets\WardenScript.cs" />
+     <Compile Include="Assets\Scripts\Jump.cs" />
      <None Include="Assets\ImportedAssets\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
      <None Include="Assets\ImportedAssets\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
      <None Include="Assets\ImportedAssets\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
