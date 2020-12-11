@@ -134,6 +134,7 @@
      <Compile Include="Assets\ImportedAssets\Standard Assets\Utility\SimpleActivatorMenu.cs" />
      <Compile Include="Assets\ImportedAssets\Standard Assets\Vehicles\Car\Scripts\Mudguard.cs" />
      <Compile Include="Assets\ImportedAssets\PolygonDungeon\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
+     <Compile Include="Assets\Scripts\Jump.cs" />
      <Compile Include="Assets\ImportedAssets\Standard Assets\Vehicles\Aircraft\Scripts\AeroplaneControlSurfaceAnimator.cs" />
      <Compile Include="Assets\ImportedAssets\Standard Assets\Vehicles\Car\Scripts\CarAudio.cs" />
      <Compile Include="Assets\ImportedAssets\Standard Assets\Utility\LerpControlledBob.cs" />
@@ -155,7 +156,7 @@
      <Compile Include="Assets\ImportedAssets\Standard Assets\Utility\FOVKick.cs" />
      <Compile Include="Assets\ImportedAssets\Standard Assets\2D\Scripts\PlatformerCharacter2D.cs" />
      <Compile Include="Assets\ImportedAssets\Standard Assets\Utility\AutoMobileShaderSwitch.cs" />
-     <Compile Include="Assets\Scripts\Jump.cs" />
+     <Compile Include="Assets\Scripts\Enemy.cs" />
      <None Include="Assets\ImportedAssets\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
      <None Include="Assets\ImportedAssets\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
      <None Include="Assets\ImportedAssets\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
