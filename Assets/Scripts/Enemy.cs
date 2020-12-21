@@ -12,6 +12,7 @@ public class Enemy : MonoBehaviour
 {
     [SerializeField] private Transform player;
     [SerializeField] private List<Transform> waypoints;
+    [SerializeField] private LivesMeter livesMeter;
     public float agroDistance = 10;
     private NavMeshAgent m_Agent;
     private Animator m_Animator;
@@ -63,5 +64,10 @@ public class Enemy : MonoBehaviour
         {
             m_Animator.SetBool("attack",false);
         }
+    }
+
+    public void Bite()
+    {
+        livesMeter.MinusHealth();
     }
 }
