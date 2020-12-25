@@ -13,17 +13,20 @@ public class Enemy : MonoBehaviour
     [SerializeField] private Transform player;
     [SerializeField] private List<Transform> waypoints;
     [SerializeField] private LivesMeter livesMeter;
+    [SerializeField] private ParticleSystem particles;
     public float agroDistance = 10;
     private NavMeshAgent m_Agent;
     private Animator m_Animator;
     private int m_CurrentWaypoint;
     private EnemyState m_State;
+
     void Start()
     {
         m_Agent = GetComponent<NavMeshAgent>();
         m_Agent.SetDestination(waypoints[0].position);
         m_State = EnemyState.Walk;
         m_Animator = GetComponent<Animator>();
+        particles.Stop();
     }
 
     void Update()
@@ -69,5 +72,7 @@ public class Enemy : MonoBehaviour
     public void Bite()
     {
         livesMeter.MinusHealth();
+        GetComponent<AudioSource>().Play();
+        particles.Play();
     }
 }
