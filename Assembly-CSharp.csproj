@@ -133,6 +133,7 @@
      <Compile Include="Assets\ImportedAssets\Standard Assets\Utility\DynamicShadowSettings.cs" />
      <Compile Include="Assets\ImportedAssets\Standard Assets\Vehicles\Aircraft\Scripts\JetParticleEffect.cs" />
      <Compile Include="Assets\ImportedAssets\PolygonDungeon\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
+     <Compile Include="Assets\Scripts\LivesMeter.cs" />
      <Compile Include="Assets\ImportedAssets\Standard Assets\Utility\SimpleActivatorMenu.cs" />
      <Compile Include="Assets\ImportedAssets\Standard Assets\Vehicles\Car\Scripts\Mudguard.cs" />
      <Compile Include="Assets\ImportedAssets\PolygonDungeon\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
@@ -158,7 +159,7 @@
      <Compile Include="Assets\ImportedAssets\Standard Assets\Utility\FOVKick.cs" />
      <Compile Include="Assets\ImportedAssets\Standard Assets\2D\Scripts\PlatformerCharacter2D.cs" />
      <Compile Include="Assets\ImportedAssets\Standard Assets\Utility\AutoMobileShaderSwitch.cs" />
-     <Compile Include="Assets\LivesMeter.cs" />
+     <Compile Include="Assets\Scripts\GUIHealth.cs" />
      <None Include="Assets\ImportedAssets\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
      <None Include="Assets\ImportedAssets\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
      <None Include="Assets\ImportedAssets\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
