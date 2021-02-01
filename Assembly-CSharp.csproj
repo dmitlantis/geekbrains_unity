@@ -107,6 +107,7 @@
      <Compile Include="Assets\ImportedAssets\PolygonDungeon\SampleScenes\Scripts\ParticleSceneControls.cs" />
      <Compile Include="Assets\ImportedAssets\Standard Assets\Vehicles\Aircraft\Scripts\LandingGear.cs" />
      <Compile Include="Assets\ImportedAssets\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs" />
+     <Compile Include="Assets\Scripts\GUIHealth.cs" />
      <Compile Include="Assets\ImportedAssets\Standard Assets\Environment\Water\Water\Scripts\MeshContainer.cs" />
      <Compile Include="Assets\ImportedAssets\Standard Assets\Utility\ObjectResetter.cs" />
      <Compile Include="Assets\ImportedAssets\Standard Assets\ParticleSystems\Scripts\AfterburnerPhysicsForce.cs" />
@@ -159,7 +160,7 @@
      <Compile Include="Assets\ImportedAssets\Standard Assets\Utility\FOVKick.cs" />
      <Compile Include="Assets\ImportedAssets\Standard Assets\2D\Scripts\PlatformerCharacter2D.cs" />
      <Compile Include="Assets\ImportedAssets\Standard Assets\Utility\AutoMobileShaderSwitch.cs" />
-     <Compile Include="Assets\Scripts\GUIHealth.cs" />
+     <Compile Include="Assets\Scripts\Ragdoll.cs" />
      <None Include="Assets\ImportedAssets\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
      <None Include="Assets\ImportedAssets\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
      <None Include="Assets\ImportedAssets\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
